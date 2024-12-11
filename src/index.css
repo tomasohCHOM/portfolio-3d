@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Delfino;
+    font-weight: 400;
+    src: url(/fonts/delfino/Delfino.ttf) format("truetype"),
+      url(/fonts/delfino/Delfino.otf) format("opentype");
+  }
+}
+
+:root {
+  font-family: "Delfino", sans-serif;
+}
